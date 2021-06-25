@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;       
+
+}
+html,body{
+    background-color:  #ededed !important;
+    overflow-x:hidden  !important;
+}
+.bg-custom{
+    background-color: #e40046;
+    
+}
+.custom-btn{
+    background-color: #e40046;
+    color: white;
+}
+.custom-btn:hover{
+    background-color: transparent;
+    color:black;
+}
+.flex-nav{
+  display: block;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+.form-margin{
+
+  display: table;
+}
+.form{
+    display: table-cell;
+    vertical-align: middle;
+     width: 25%
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+ 
+  }
+.bg-white{
+      background-color: white;
+      border-radius: 8px;
+      height: 40rem;
+  }
+.main-div{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+}
+.inner-div{
+    background-color: #ededed ;
+    height: 35rem;
+    margin-top: px;
+    border-radius: 8px ;
+}
+.message-input{
+    width: 90%;
+    height: 33px;
+    margin-left:13px ;
+    background-color: #ededed ;
+    border-radius: 15px;
+    border:0;
+    padding: 10px;
+}
+
+.message-input:focus{
+outline: none;
+
+}
+.btn-send{
+    height: 33px;
+    width: 50px;
+    margin-right: 4px;
+}
+.messages{
+  box-shadow: 0 2px 4px 0 black;
+    height: 45px;
+    border-radius: 4px;
+transition: 0.3s;
+}
+.messages:hover{
+    box-shadow: 0 5px 7px 0 black;
+}
+.profile-pic{
+    position: absolute;
+    background-color: grey;
+    border-radius: 800px;
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.d-flex{
+    display: flex !important;
+}
+ul{
+    list-style: none;
+}
